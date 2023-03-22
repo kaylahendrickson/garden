@@ -71,7 +71,7 @@ enableEmoji = true
   # Configuration of https://utteranc.es/ for comments
   [params.utterances]
     use_utterances = true
-    repo_name = "apreshill/apero"
+    repo_name = "kaylahendrickson/garden"
     issue_term = "pathname" # url, pathname, or title
     theme = "boxy-light"
     label = "comments :crystal_ball:"
@@ -102,35 +102,30 @@ enableEmoji = true
 [menu]
   # Configure header 
   [[menu.header]]
-    name = "About"
+    name = "about"
     title = "About Blogophonic"
     url = "/about/"
     weight = 1
   [[menu.header]]
-    name = "Blog"
-    title = "Blog"
-    url = "/blog/"
+    name = "The Garden"
+    title = "The Garden"
+    url = "/garden/"
     weight = 2
   [[menu.header]]
-    name = "Projects"
-    title = "Project Portfolio"
+    name = "UX Portfolio"
+    title = "UX Portfolio"
     url = "/project/"
     weight = 3
-  [[menu.header]]
-    name = "Talks"
-    title = "Talks"
-    url = "/talk/"
-    weight = 4
   [[menu.header]]
     name = "A collection"
     title = "A collection"
     url = "/collection/"
-    weight = 5
+    weight = 4
   [[menu.header]]
     name = "Elements"
     title = "Element Page"
     url = "/elements/"
-    weight = 6
+    weight = 5
     
   # Configure footer  
   [[menu.footer]]
