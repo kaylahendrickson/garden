@@ -9,7 +9,7 @@ images:
 show_action_link: true
 show_social_links: true
 subtitle: 2nd year Masters of Science student @ the Duke Global Health Institute.
-text_align_left: false
+text_align_left: true
 title: Kayla Hendrickson
 type: home
 ---
