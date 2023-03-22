@@ -3,7 +3,7 @@ action_label: Read More &rarr;
 action_link: /about
 action_type: text
 description: With training in engineering, data science, and UI design, I like to work on complex problems in healthcare access and health equity. 
-image_left: true
+image_left: false
 images:
 - img/revoir.jpg
 show_action_link: true
