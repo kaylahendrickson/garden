@@ -10,7 +10,7 @@ show_action_link: true
 show_social_links: true
 subtitle: Hi, I'm a 2nd year Masters of Science student @ the Duke Global Health Institute.
 text_align_left: true
-title: Kayla's digital garden
+title: Kayla Hendrickson
 type: home
 ---
 
