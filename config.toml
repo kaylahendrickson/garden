@@ -120,12 +120,12 @@ enableEmoji = true
     name = "A collection"
     title = "A collection"
     url = "/collection/"
-    weight = 5
+    weight = 4
   [[menu.header]]
     name = "Elements"
     title = "Element Page"
     url = "/elements/"
-    weight = 6
+    weight = 5
     
   # Configure footer  
   [[menu.footer]]
