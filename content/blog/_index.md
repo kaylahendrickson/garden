@@ -9,24 +9,21 @@ cascade:
     show_sidebar_adunit: false
     text_link_label: View recent posts
     text_link_url: /blog/
-description: "This is a fully featured blog that supports categories, \ntags, series,
-  and pagination.\n"
+description: "K.R.Hendrickson's digital garden.\n"
 layout: list-sidebar
 show_author_byline: true
 show_button_links: false
 show_post_date: true
 show_post_thumbnail: true
 sidebar:
-  author: The R Markdown Team @RStudio
-  description: "This is a fully featured blog that supports categories,\ntags, series,
-    and pagination. Even this sidebar offers \na ton of customizations.\n\nCheck out
-    the _index.md file in the /blog folder \nto edit this content. \n"
+  author: K.R.Hendrickson
+  description: "I'm trying out this [digital garden](https://maggieappleton.com/garden-history) thing - which I stumbled upon while researching building a website through Hugo and Wowchemy. It's a place to cultivate my thoughts and interests into semi-coherent notes and essays. It's meant for sharing but not as polished as what we might call a blog. \n \n Lots of growing, occasional pruning (so many garden-related puns left to uncover). "
   show_sidebar_adunit: true
   text_link_label: Subscribe via RSS
   text_link_url: /index.xml
-  title: A Sidebar for Your Thoughts
+  title: A digital what? A garden??
 thumbnail_left: true
-title: A Blog That Works
+title: The Garden
 ---
 
 ** No content below YAML for the blog _index. This file provides front matter for the listing page layout and sidebar content. It is also a branch bundle, and all settings under `cascade` provide front matter for all pages inside blog/. You may still override any of these by changing them in a page's front matter.**

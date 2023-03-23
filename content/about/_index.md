@@ -2,7 +2,7 @@
 cascade:
   headless: true
 description: |
-  Kayla Hendrickson's about page.
+  Kayla's about page.
 show_header: true
 sidebar_left: false
 title: About
