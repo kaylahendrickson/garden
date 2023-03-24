@@ -2,15 +2,15 @@
 action_label: Read More &rarr;
 action_link: /about
 action_type: text
-description: With training in engineering, data science, and UI design, I like to work on complex problems in healthcare access and health equity. This is where I store notes and essays on topics of interest, as well as my old design projects. It's safe to bet everything here is a work in progress.
+description: With training in engineering, data science, and UI design, I like to work on complex problems in healthcare access and health equity. This website is currently serving as a spoofed-up resume and a place for me to try digital gardening. It's safe to bet everything here is a work in progress, including the author.
 image_left: false
 images:
-- img/scotland.jpeg
+- img/avatar.jpeg
 show_action_link: true
 show_social_links: true
 subtitle: Masters of Science student @ the Duke Global Health Institute.
 text_align_left: true
-title: Kayla Hendrickson
+title: Kayla R. Hendrickson
 type: home
 ---
 

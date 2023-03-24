@@ -1,7 +1,7 @@
 baseURL = "https://krhendrickson.netlify.app/"
 theme = "hugo-apero"
 languageCode = "en"
-title = "Kayla's Digital Garden"
+title = "k.r.hendrickson's cv & digital garden"
 author = "krhendrickson"
 copyright = "Kayla Hendrickson 2023" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
@@ -30,9 +30,9 @@ enableEmoji = true
 [params]
   orgName = "RStudio"
   orgLocal = "Anywhere"
-  description = "A modern, beautiful, and easily configurable blog theme for Hugo."
+  description = "K.R.Hendrickson' digital garden."
   favicon = "/img/favicon.ico"
-  logo = "/img/blogophonic-mark-dark.png"
+  logo = ""
   mainSections = ["blog", "project", "collection"]
   navallcaps = true
   # show/hide social icons in site header & footer
@@ -42,13 +42,12 @@ enableEmoji = true
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
   sharing_image = "/img/papillons.jpg"
-  # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = "apreshill"
+ 
   
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = "sky"
+  theme = "poppy"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
@@ -102,7 +101,7 @@ enableEmoji = true
 [menu]
   # Configure header 
   [[menu.header]]
-    name = "about"
+    name = "about me"
     title = "about"
     url = "/about/"
     weight = 1
@@ -112,20 +111,11 @@ enableEmoji = true
     url = "/blog/"
     weight = 2
   [[menu.header]]
-    name = "ux design"
-    title = "ux design"
+    name = "design portfolio"
+    title = "design portfolio"
     url = "/project/"
     weight = 3
-  [[menu.header]]
-    name = "learning"
-    title = "ultralearning projects"
-    url = "/collection/"
-    weight = 4
-  [[menu.header]]
-    name = "tools"
-    title = "Element Page"
-    url = "/elements/"
-    weight = 5
+
     
   # Configure footer  
   [[menu.footer]]

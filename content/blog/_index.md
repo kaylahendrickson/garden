@@ -19,8 +19,8 @@ sidebar:
   author: K.R.Hendrickson
   description: "I'm trying out this [digital garden](https://maggieappleton.com/garden-history) thing - which I stumbled upon while researching building a website through Hugo and Wowchemy. It's a place to cultivate my thoughts and interests into semi-coherent notes and essays. It's meant for sharing but not as polished as what we might call a blog. \n \n Lots of growing, occasional pruning (so many garden-related puns left to uncover). "
   show_sidebar_adunit: true
-  text_link_label: Subscribe via RSS
-  text_link_url: /index.xml
+  text_link_label: 
+  text_link_url: 
   title: A digital what? A garden??
 thumbnail_left: true
 title: The Garden
