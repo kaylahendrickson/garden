@@ -33,7 +33,7 @@ enableEmoji = true
   description = "K.R.Hendrickson' digital garden."
   favicon = "/img/favicon.ico"
   logo = ""
-  mainSections = ["blog", "project", "collection"]
+  mainSections = ["blog", "project"]
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
