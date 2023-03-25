@@ -1,5 +1,5 @@
 ---
-title: Lila - a mobile finance app
+title: Lila - finance education made easy
 author: krhendrickson
 date: '2023-03-25'
 slug: []
@@ -11,13 +11,14 @@ tags: []
 #### A mobile application designed to create a relaxed and engaging learning environment for users looking to self-educate on personal finance. 
 
 ![](featured.jpg)
+---
 
 ## About the Project 
  
-*My Role:* UX/UI Designer                    
-*Duration:* 1 month                   
-*Tools:* Adobe XD, Miro
-*My Team:* Melanie Lynch (UX/UI Design), Libby Lim (UX/UI Design)
+**My Role:** UX/UI Designer                    
+**Duration:** 1 month                   
+**Tools:** Adobe XD, Miro
+**My Team:** Melanie Lynch (UX/UI Design), Libby Lim (UX/UI Design)
 
 This project was completed as part of the Georgia Tech UX/UI Design Bootcamp. The assigned task was an open-ended mobile app design challenge. After a brainstorming session with my teammates, we chose to focus our app on financial education. Our hypothesis was that financial education is underrepresented in traditional public education, and that many Americans are missing out on the benefits of good financial practices. To address our problem, we designed an app that allows users to learn about personal finance in a relaxed and engaging digital environment. Our largest constraints were lack of funding for research and a 3-week timeline on the project.
 
