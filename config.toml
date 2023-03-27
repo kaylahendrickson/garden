@@ -28,9 +28,9 @@ enableEmoji = true
     style = "github"
     
 [params]
-  orgName = "RStudio"
+  orgName = "krhendrickson"
   orgLocal = "Anywhere"
-  description = "K.R.Hendrickson' digital garden."
+  description = "k.r.hendrickson's digital garden."
   favicon = "/img/favicon.ico"
   logo = ""
   mainSections = ["blog", "project"]
@@ -94,9 +94,9 @@ enableEmoji = true
       url       = "/blog/index.xml"
 
 [taxonomies]
-  category = "categories"
-  series = "series"
-  tag = "tags"
+  category = ["epidemiology", "learning project"]
+  series = ["mediation analysis", "learning project"]
+  tag = ["R", "Python", "programming", "data viz"]
 
 [menu]
   # Configure header 
