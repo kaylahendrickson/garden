@@ -2,9 +2,10 @@
 title: Notes on Mediation Analsis in R
 author: krhendrickson
 date: '2023-03-27'
-slug: []
-categories: []
-tags: []
+slug: ["mediation-analysis-notes"]
+categories: ["epidemiology"]
+tags: ["R","data analysis"]
+series: ["mediation analysis"]
 ---
 
 
@@ -12,4 +13,6 @@ tags: []
 ---
 
 Mediation analysis is usually conducted to evaluate specific causal mechanisms after a general cause and effect relationship has been established by theory and experiments. 
+
+One of the key decisions we needed to make for this analysis was which R package we would use to do it.  
 

@@ -2,9 +2,10 @@
 title: '#tidytuesday:game tables'
 author: krhendrickson
 date: '2022-04-04'
-slug: []
+slug: [tidytues-gametables]
 categories: []
-tags: []
+tags: ["data viz"]
+series: ["tidytuesday"]
 layout: single-sidebar
 ---
 

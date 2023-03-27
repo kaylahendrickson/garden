@@ -1,4 +1,4 @@
-baseURL = "https://krhendrickson.netlify.app/"
+baseURL = "https://kaylarhendrickson.com/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "k.r.hendrickson's cv & digital garden"
@@ -94,10 +94,10 @@ enableEmoji = true
       url       = "/blog/index.xml"
 
 [taxonomies]
-  category = ["epidemiology", "learning project"]
-  series = ["mediation analysis", "learning project"]
-  tag = ["R", "Python", "programming", "data viz"]
-
+  category = "categories"
+  series = "series"
+  tag = "tags"  
+  status = "status"
 [menu]
   # Configure header 
   [[menu.header]]
