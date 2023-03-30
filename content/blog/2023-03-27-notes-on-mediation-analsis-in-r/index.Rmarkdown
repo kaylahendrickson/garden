@@ -5,6 +5,7 @@ date: '2023-03-27'
 slug: ["mediation-analysis-notes"]
 categories: ["epidemiology"]
 tags: ["R","data analysis"]
+status: ["just planted"]
 series: ["mediation analysis"]
 ---
 

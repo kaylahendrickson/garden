@@ -2,7 +2,7 @@
 action_label: Read More &rarr;
 action_link: /about
 action_type: text
-description: With training in engineering, data science, and UX design, I like to work on complex problems in healthcare access and health equity. This website is currently serving as a resume and an experiment in digital gardening. It's safe to bet everything here is a work in progress, including the author.
+description: With training in engineering, data science, and UX design, I like to work on complex problems in healthcare access and health equity. This website is currently serving as an extended resume and an experiment in digital gardening. Everything here is a work in progress, including the author.
 image_left: false
 images:
 - img/avatar.jpeg

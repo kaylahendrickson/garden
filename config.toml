@@ -1,7 +1,7 @@
 baseURL = "https://kaylarhendrickson.com/"
 theme = "hugo-apero"
 languageCode = "en"
-title = "k.r.hendrickson's cv & digital garden"
+title = "k.r.hendrickson's digital garden"
 author = "krhendrickson"
 copyright = "Kayla Hendrickson 2023" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
