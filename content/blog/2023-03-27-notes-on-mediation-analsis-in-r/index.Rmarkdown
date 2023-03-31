@@ -51,6 +51,9 @@ You could imagine that if the gene variant caused more smoking, then there would
 
 And, in fact, that is what the researcher's found. Using mediation analysis, they showed that the association between the gene variant and risk of lung cancer was operating primarily through pathways OTHER than smoking behavior. 
 
+But wait, I thought we were talking about moderation? 
+
+If we instead change our perspective to smoking being the 'exposure' and 'lung cancer' being the outcome, this gene variant on 15q25.1 becomes a _moderator_. 
 
 
 
