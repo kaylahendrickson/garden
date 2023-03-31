@@ -102,6 +102,13 @@ Combining all our ideation tools and information architecture, we defined the so
 We first created wireframes for our homepage and our search results page, as these are the ones that incorporated the main new feature of searchable projects and profiles. Both pages have many components that are designed to improve the user experience of the website. 
 
 
+### This case study has been abbreviated because the author has more interesting projects occupying her brain space at the mo. 
+
+Below is a mockup of the home page. The team also made a mobile version of the website. 
+
+![](viz8-homepage.jpg)
+
+
 
 
 
