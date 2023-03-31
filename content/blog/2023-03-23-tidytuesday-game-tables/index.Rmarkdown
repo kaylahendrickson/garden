@@ -28,5 +28,5 @@ After the content of the table was done I had a great time playing with the styl
 
 ### Part II: Recreating the game tables in Python. 
 
-I've wanted to learn Pyhton for awhile (and have picked up a minimal amount in the past), so one way I thought of to help myself practice was to recreate my R TidyTuesday's in Pyhton. 
+I've wanted to learn Python for awhile (and have picked up a minimal amount in the past), so one way I thought of to help myself practice was to recreate my R TidyTuesday's in Pyhton. 
 
