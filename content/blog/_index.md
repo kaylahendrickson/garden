@@ -1,7 +1,7 @@
 ---
-author: K.R. Hendrickson
+author: k.r.hendrickson
 cascade:
-  author: K.R. Hendrickson
+  author: k.r.hendrickson
   show_author_byline: true
   show_comments: true
   show_post_date: true
@@ -17,7 +17,7 @@ show_post_date: true
 show_post_thumbnail: true
 sidebar:
   author: K.R.Hendrickson
-  description: "I'm trying out this [digital garden](https://maggieappleton.com/garden-history) thing - which I stumbled upon while researching building a website through Hugo and Wowchemy. It's a place to cultivate my thoughts and interests into semi-coherent notes and essays. It's meant for sharing but not as polished as what we might call a blog. \n \n Lots of growing, occasional pruning (so many garden-related puns left to uncover). "
+  description: "I'm trying out this [digital garden](https://maggieappleton.com/garden-history) thing - which I stumbled upon while researching how to build a website through [Hugo and blogdown](https://bookdown.org/yihui/blogdown/). It's a place to cultivate my thoughts and interests into semi-coherent notes and essays.  \n \n Lots of growing, occasional pruning (so many garden-related puns left to uncover). "
   show_sidebar_adunit: true
   text_link_label: 
   text_link_url: 

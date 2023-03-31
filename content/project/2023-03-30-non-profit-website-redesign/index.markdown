@@ -28,6 +28,7 @@ The first task my team attempted to accomplish in the research phase was contact
 We were able to complete 5 user interviews of attorneys who had participated pro bono work and 1 user interview with a managing partner of a nonprofit. From the attorney interviews, we gained valuable information about why and how attorneys pursue pro bono cases. We grouped our interview facts in the affinity diagram below so we could get a clear picture of the motivations and desires of volunteer attorneys. 
 
 ![](viz2-affinitydiagram.jpg)
+
 **Figure 1. Affinity diagram of insights from interviews with attorneys.**
 
 &nbsp;
