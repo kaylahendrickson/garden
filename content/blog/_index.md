@@ -17,7 +17,9 @@ show_post_date: true
 show_post_thumbnail: true
 sidebar:
   author: K.R.Hendrickson
-  description: "I'm trying out this [digital garden](https://maggieappleton.com/garden-history) thing - which I stumbled upon while researching how to build a website through [Hugo and blogdown](https://bookdown.org/yihui/blogdown/). It's a place to cultivate my thoughts and interests into semi-coherent notes and essays.  \n \n Lots of growing, occasional pruning (so many garden-related puns left to uncover). "
+  description: "I stumbled upon the idea of a [digital garden](https://maggieappleton.com/garden-history) while researching how to build a website through [Hugo and blogdown](https://bookdown.org/yihui/blogdown/). Gardens are organized by ideas and context, rather than reverse chronology like a traditional blog. The notes and essays here are published as they are being written, rather than only when they are polished and complete. Each post comes with a status to let you know what stage that 'plot' is in. I'm planning to write about everything from [highly technical epidemiology](2023-03-27-notes-on-mediation-analsis-in-r/) to training my new puppy.
+  
+\n \n In sum, lots of growing, occasional pruning (so many garden-related puns left to uncover). "
   show_sidebar_adunit: true
   text_link_label: 
   text_link_url: 

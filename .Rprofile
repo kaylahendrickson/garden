@@ -19,7 +19,7 @@ options(
   blogdown.method = 'markdown', 
   blogdown.author = "krhendrickson",
   blogdown.ext = "Rmarkdown", 
-  blogdown.subdir = "post"
+  blogdown.subdir = "blog"
 )
 
 # fix Hugo version

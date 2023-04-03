@@ -8,7 +8,7 @@ cascade:
     show_sidebar_adunit: true
     text_link_label: View all projects
     text_link_url: /project/
-description: You're the friend I wasn't expecting to come over for another half hour (or 10 days). Transitioning my portfolio to this site is taking some time; sincere apologies for the mess!
+description: Even though I didn't end up working as strictly a UX Designer, these projects taught me invaluable lessons about problem-solving, human-centered design, and always asking why. 
 layout: list-grid
 show_author_byline: true
 show_button_links: false

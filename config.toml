@@ -1,7 +1,7 @@
 baseURL = "https://kaylarhendrickson.com/"
 theme = "hugo-apero"
 languageCode = "en"
-title = "k.r.hendrickson's digital garden"
+title = "k.r.hendrickson"
 author = "krhendrickson"
 copyright = "Kayla Hendrickson 2023" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
@@ -30,7 +30,7 @@ enableEmoji = true
 [params]
   orgName = "krhendrickson"
   orgLocal = "Anywhere"
-  description = "k.r.hendrickson's digital garden."
+  description = "k.r.hendrickson's digital garden"
   favicon = "/img/favicon.ico"
   logo = ""
   mainSections = ["blog", "project"]

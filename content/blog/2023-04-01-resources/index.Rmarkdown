@@ -1,0 +1,17 @@
+---
+title: Resources
+author: krhendrickson
+date: '2023-04-01'
+slug: ["resources"]
+categories: ["tools"]
+tags: ["web development", "programming"]
+---
+
+## Here is a list of resources that I found useful when learning...something
+
+### Building this website 
+
+* [Mike Dane's video series about Hugo](https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3)
+* [Alison Hill's post about using blogdown and Hugo](https://www.apreshill.com/blog/2020-12-new-year-new-blogdown/). 
+  + Alison is also one of the author's of the Hugo theme I'm using: [Hugo Apéro](https://hugo-apero-docs.netlify.app/). 
+* [The blogdown documentation](https://bookdown.org/yihui/blogdown/) 
