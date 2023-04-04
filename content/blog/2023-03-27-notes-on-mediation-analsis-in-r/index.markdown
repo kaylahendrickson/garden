@@ -10,25 +10,37 @@ series: ["mediation analysis"]
 ---
 
 
-#### I'm spending the last semester of my masters working on an independent study project on causal mediation analysis. It seemed a perfect opportunity to try this [Learning in Public](https://www.swyx.io/learn-in-public) thing for the first time. 
+#### I'm spending the last semester of my masters working on an independent study project on causal mediation analysis. It seemed a perfect opportunity to try this [Learning in Public](https://www.swyx.io/learn-in-public) thing for the first time. I'm currenlty adding to this post on an almost daily basis. 
+
+##### Corrections or requests welcome in the comments section!
 ---
 
 Mediation analysis is often conducted to evaluate specific causal mechanisms after a general cause and effect relationship has been established by theory and experiments. 
 
-As an exmaple, let's say I've noticed a causal relationship in my life between going out drinking and having a bad hangover the next day. I'm confident in the overall connection between these two variables (having tested it many times), but I can think of multiple _reasons_ that going out drinking might lead to a hangover. Below is one potential causal chain: 
+As an example, let's say I've noticed a causal relationship in my life between going out drinking and having a bad hangover the next day. I'm confident in the overall connection between these two variables (having tested it many times), but I can think of multiple _reasons_ that going out drinking might lead to a hangover. Below is one potential causal chain: 
+
+(Amusingly, I've recently [given up drinking](../2023-04-04-sober-ish/), so this post has become extremely theoretical.)
 
 ![](dag1.png)
 
-The value of a mediation analysis is being able to estimate _how much_ of an observed effect is going through a specific pathway. In this case, how much is poor sleep mediating the effect of drinking on my hangover. If poor sleep is the only reason drinking affects how I feel the next day, then we would expect all of the observed effect to travel through that causal chain. However, there are probably multiple reasons I have a hangover after drinking, such as dehydration, or the actual processing of the alochol making me feel ill. The directed acyclic graph (DAG) for this question would look like this: 
+The value of a mediation analysis is being able to estimate _how much_ of an observed effect is going through a specific pathway. In this case, how much is poor sleep mediating the effect of drinking on my hangover. If poor sleep is the only reason drinking affects how I feel the next day, then we would expect all of the observed effect to travel through that causal chain. However, there are probably multiple reasons I have a hangover after drinking, such as dehydration, or the direct effect of consuming alcohol making me feel ill. The directed acyclic graph (DAG) for this question would look like this: 
 
 ![](featured.png)
 Our scientific question is: **how much of my hangover is due to the fact that alcohol consumption disrupts my sleep?**
 
-In terms of the DAG - we're interested in disentagling pathway 'b' & 'c' from the 'total effect'. Pathway 'a' would be all the other causal mechanisms by which alcohol can cause a hangover. 
+In terms of the DAG - we're interested in disentangling pathway 'b' & 'c' from the 'total effect'. When I say total effect, think the increased risk of a hangover for every drink I've had the night before. Pathway 'a' would be all the other causal mechanisms by which alcohol can cause a hangover. 
 
 ## A detour through terminology 
 
-One of the challenging parts about learning mediation analysis is the jargon associated with all the analytical ways to break down the 'total effect' into different pathways. What is the difference between the Natural Direct Effect and the Controlled Direct Effect? What about the Average Casual Mediated Effect? It's the kind of thing you think you understand right up until you have to explain it. Which explains how I'm feeling about it right now...
+One of the challenging parts about learning mediation analysis is the jargon associated with all the ways to break down the 'total effect' into different pathways. What is the difference between the 'natural direct effect' and the 'controlled direct effect'? What about the 'average casual mediated effect'? It's the kind of thing you think you understand right up until you have to explain it. Which explains how I'm feeling about it right now...
+
+To start simply, the _direct effect_ is how much alcohol consumption is directly causing a hangover.It's no secret that alcohol isn't good for you. According to the [Mayo Clinic website](https://www.mayoclinic.org/diseases-conditions/hangovers/symptoms-causes/syc-20373012#:~:text=Alcohol%20increases%20the%20production%20of,mood%20disturbances%20and%20even%20seizures.), alcohol irritates the lining of your stomach, which can cause pain, nausea, or vomiting. For the purposes of this example, we'll consider this a direct effect, or pathway 'a' in the DAG. 
+
+_Indirect effects_, in contrast, are effects that go through the mediator of interest. They are called indirect because without a change in the mediator, in this case sleep quality, you don't see the subsequent change in the outcome. Intuitively, you would expect a total effect to be able to be broken down into a set of indirect effects and a leftover direct effect, assuming your understanding of the causal structure is correct.
+
+This is where is starts to get complicated. The problem is that there can be an interactive relationship between the exposure and the mediator. (This is called "exposure mediator interaction").  So when you want to quantify this relationship, it's _dependent on_ what value you set the mediator. 
+
+At first, I didn't think my drinking-sleep-hangover example would have any exposure-mediator interaction, but after siting on it I changed my mind. As someone who is sensitive to sleep habits, I know that I'm much more likely to get a good night's sleep when I've had many good night's sleep in a row. On the flip side, a poor night's sleep often leads me to more bad sleep, because I've disrupted my circadian rhythm. When I have a disrupted circadian rhythm, I'm a lot more likely to stay up later and drink more, because I'm not getting the "bedtime" cues from my brain. 
 
 
 
