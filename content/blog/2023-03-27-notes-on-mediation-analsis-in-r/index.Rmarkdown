@@ -87,6 +87,15 @@ Well here's the thing: of people who have the gene variant on 15q25.1, _only tho
 In other words, if you have the gene variant, but don't smoke, you have no increased risk for lung cancer due to your genetics. But if you have the variant and DO smoke, you're at a higher risk for lung cancer. Smoking is moderating the effect of your genetics. 
 
 
+#Adjusting for baseline measurements in mediation analysis
+
+At this point I'm realizing this note would probably benefit from being broken up into a series. 
+
+"Another assumption of any mediation analysis is no unmeasured confounding for each posited causal relation." (2023, Loh & Ren)
+
+"Systematic differences in the distribution of con- founders between different mediator levels can manifest as noncausal (i.e., “spurious”) empirical associations between the mediators, or between the mediator and outcome." (2023, Loh & Ren)
+
+
 
 
 

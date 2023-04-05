@@ -5,6 +5,7 @@ date: '2023-04-04'
 slug: ["soberish"]
 categories: ["life"]
 tags: []
+draft: true
 ---
 
 ### Thoughts on sort-of giving up alcohol.
