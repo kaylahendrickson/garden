@@ -29,10 +29,10 @@ enableEmoji = true
     
 [params]
   orgName = "krhendrickson"
-  orgLocal = "Anywhere"
+  orgLocal = "anywhere"
   description = "k.r.hendrickson's digital garden"
-  favicon = "/img/favicon.ico"
-  logo = ""
+  favicon = "/img/logo.png"
+  logo = "/img/logo.png"
   mainSections = ["blog", "project"]
   navallcaps = true
   # show/hide social icons in site header & footer
@@ -47,7 +47,7 @@ enableEmoji = true
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = "poppy"
+  theme = "plum"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
