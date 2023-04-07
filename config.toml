@@ -32,7 +32,7 @@ enableEmoji = true
   orgLocal = "anywhere"
   description = "k.r.hendrickson's digital garden"
   favicon = "/img/logo.png"
-  logo = "/img/logo.png"
+  logo = ""
   mainSections = ["blog", "project"]
   navallcaps = true
   # show/hide social icons in site header & footer
