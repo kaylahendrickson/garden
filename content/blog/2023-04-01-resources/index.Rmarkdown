@@ -15,3 +15,8 @@ tags: ["web development", "programming"]
 * [Alison Hill's post about using blogdown and Hugo](https://www.apreshill.com/blog/2020-12-new-year-new-blogdown/). 
   + Alison is also one of the author's of the Hugo theme I'm using: [Hugo Apéro](https://hugo-apero-docs.netlify.app/). 
 * [The blogdown documentation](https://bookdown.org/yihui/blogdown/) 
+
+
+## Updating my programming skills 
+* [Mike Dane's video series on Python3](https://www.youtube.com/watch?v=sfhhk8m4mcQ&list=PLLAZ4kZ9dFpMMs5lskzBApYXn0bl7emsW&ab_channel=MikeDane) 
+* [Installing Homebrew on an M1 chip Mac](https://mac.install.guide/homebrew/3.html)
