@@ -51,7 +51,7 @@ Note to self: change mediator to hours of sleep so that measuring it makes more 
 
 ## Confounding by baseline mediator and baseline exposure values
 
-At first, I didn't think my drinking-sleep-hangover example would have any exposure-mediator interaction, but after dwelling on it I changed my mind. As someone who is sensitive to sleep habits, I know that I'm much more likely to get a good night's sleep when I've had many good night's sleep in a row. On the flip side, a poor night's sleep often leads to more bad sleep, because I've disrupted my circadian rhythm. When I have a disrupted circadian rhythm, I'm a lot more likely to stay up later and drink more, because I'm not getting the "bedtime" cues from my brain at a reasonable hour. Here is a DAG visualizing what I mean: 
+As someone who is sensitive to sleep habits, I know that I'm much more likely to get a good night's sleep when I've had many good night's sleep in a row. On the flip side, a poor night's sleep often leads to more bad sleep, because I've disrupted my circadian rhythm. When I have a disrupted circadian rhythm, I'm a lot more likely to stay up later and drink more, because I'm not getting the "bedtime" cues from my brain at a reasonable hour. Here is a DAG visualizing what I mean: 
 
 ![](dag5.png)
 
