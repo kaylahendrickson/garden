@@ -7,7 +7,7 @@ categories: ["tools"]
 tags: ["web development", "programming"]
 ---
 
-## Here is a list of resources that I found useful when learning...something
+## Here is a list of resources that I found useful when learning...something!
 
 ### Building this website 
 
@@ -17,6 +17,7 @@ tags: ["web development", "programming"]
 * [The blogdown documentation](https://bookdown.org/yihui/blogdown/) 
 
 
-## Updating my programming skills 
+### Updating my programming skills 
+
 * [Mike Dane's video series on Python3](https://www.youtube.com/watch?v=sfhhk8m4mcQ&list=PLLAZ4kZ9dFpMMs5lskzBApYXn0bl7emsW&ab_channel=MikeDane) 
 * [Installing Homebrew on an M1 chip Mac](https://mac.install.guide/homebrew/3.html)

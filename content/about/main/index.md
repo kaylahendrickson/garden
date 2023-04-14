@@ -9,7 +9,7 @@ intro: |
   When I'm not schooling or working, I love to rock climb, hang out with friends, & spend time with my dog Ruby. 
   
   I also like to devour mystery, thriller, and fantasy novels like someone is paying me to do it (but sadly they're not).
-show_outro: true
+show_outro: false
 outro: |
   <i class="fas fa-glass-cheers pr2"></i>Sincere thanks to [Maëlle Salmon](https://masalmon.eu/) for her help naming this Hugo theme!
 ---
