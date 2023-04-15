@@ -17,13 +17,13 @@ show_post_date: true
 show_post_thumbnail: true
 sidebar:
   author: K.R.Hendrickson
-  description: "I stumbled upon the idea of a [digital garden](https://maggieappleton.com/garden-history) while researching how to build a website through [Hugo and blogdown](https://bookdown.org/yihui/blogdown/). Ideally, garden posts are organized by ideas and context, rather than in reverse chronological order (like blogs, social media, etc.). My posts are still organized by time as I'm going to have to stretch my web dev skills to get to my desired architecture. However, the notes and essays here are published as they are being written, rather than only when they are polished and complete. Each post comes with a status to let you know what stage that 'plot' is in. 
+  description: "I stumbled upon the idea of a [digital garden](https://maggieappleton.com/garden-history) while researching how to build a website through [Hugo and blogdown](https://bookdown.org/yihui/blogdown/). Ideally, gardens are organized by ideas and context, rather than the 'stream' of reverse chronological order (like blogs, social media, etc.). My posts are still organized by time as I'm going to have to stretch my web dev skills to get to my desired architecture. However, the notes and essays here are published as they are being written, rather than only when they are polished and complete. 
   
-\n \n In sum, lots of growing, occasional pruning (so many garden-related puns left to uncover). "
+\n \n In sum, lots of growing, occasional pruning (and so many garden-related puns left to uncover). "
   show_sidebar_adunit: true
   text_link_label: 
   text_link_url: 
-  title: A digital what? A garden??
+  title: This is a chaotic notebook aspiring to grow into a personal wiki.
 thumbnail_left: true
 title: The Garden
 ---
