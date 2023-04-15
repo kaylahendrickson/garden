@@ -10,7 +10,7 @@ show_social_links: true
 submit_button_label: Send Message
 title: I'd love to hear from you!
 type: form
-url: contact
+url: https://formspree.io/f/xnqyorel
 ---
 
 ** Contact page don't contain a body, just the front matter above.
