@@ -56,7 +56,7 @@ A "controlled (in)direct effect" is the effect the exposure has on the outcome w
 
 #### Natural Effects 
 
-However, what if we want to know a more general, real-world impact of drinking beer on my wellbeing? If I don't normally get 9 hours of sleep every night after I drink beer, then the controlled effects don't inform what I will observe in my day-to-day life once this hypothetical experiment is over. This is where natural effects come in. Natural (in)direct effects are the effects observed when the mediator is set to an average level that is observed in a population of interest. My population is just me, so the average amount of sleep I get each night is what might be considered my "natural" level of the mediator.
+However, what if we want to know a more general, real-world impact of drinking beer on my well-being? If I don't normally get 9 hours of sleep every night after I drink beer, then the controlled effects don't inform what I will observe in my day-to-day life once this hypothetical experiment is over. This is where natural effects come in. Natural (in)direct effects are the effects observed when the mediator is set to an average level that is observed in a population of interest. My population is just me, so the average amount of sleep I get each night is what might be considered my "natural" level of the mediator.
 
 ![](dag3.png)
 
@@ -75,6 +75,9 @@ In the case of an experiment, there is the average value of the mediator observe
 ## Assumptions required to conduct a typical mediation analysis
 
 #### But what about when those assumptions do not hold? See [Part II](../2023-04-15-notes-on-mediation-analysis-part-ii/) in this series for more about the complexities of causal mediation analysis.
+
+
+#### References 
 
 
 

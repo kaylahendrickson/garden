@@ -1,8 +1,8 @@
 ---
 date: "2019-02-25T13:38:41-06:00"
-description: You can also reach me at my student email, krh@duke.edu
+description: You can also reach me at my student email, kayla.hendrickson@duke.edu
 draft: false
-formspree_form_id: kayla.hendrickson27@gmail.com
+formspree_form_id: https://formspree.io/f/xnqyorel
 layout: split-right
 name: Contact Form
 show_poweredby_formspree: true
