@@ -9,7 +9,7 @@ status: ["just planted"]
 series: ["mediation analysis"]
 ---
 
-#### I'm spending the last semester of my masters working on an independent study project on causal mediation analysis. It seemed a perfect opportunity to try this [Learning in Public](https://www.swyx.io/learn-in-public) thing for the first time. I'm currenlty adding to this post on an almost daily basis. 
+#### I'm spending the last semester of my masters working on an independent study project on causal mediation analysis. It seemed a perfect opportunity to try this [Learning in Public](https://www.swyx.io/learn-in-public) thing. I'm currenlty adding to this post on an almost daily basis. 
 
 ##### Part I covers general mediation concepts and terminology. [Part II](../2023-04-15-notes-on-mediation-analysis-part-ii/) covers more complex issues in mediation analysis.
 
@@ -20,13 +20,13 @@ __Note: most of these notes are not specific to analysis in any language, but if
 
 Mediation analysis is often conducted to evaluate specific causal mechanisms after a general cause and effect relationship has been established by theory and experiments. 
 
-As an example, let's say I've noticed a causal relationship in my life between drinking beer and having a bad hangover the next day. I'm confident in the overall connection between these two variables (having tested it many times), but I can think of multiple _reasons_ that drinking might lead to a hangover. Below is one potential causal chain: 
+As a not-so-professional example, let's say I've noticed a causal relationship in my life between drinking beer and having a bad hangover the next day. I'm confident in the overall connection between these two variables (having tested it many times), but I can think of multiple _reasons_ that drinking beer might lead to a hangover. Below is one potential causal chain: 
 
-(Amusingly, I've recently [given up drinking](../2023-04-04-sober-ish/), so this post has become extremely theoretical.)
+(Amusingly, I've recently gone [sober-ish](../2023-04-04-sober-ish/), so this post has become extremely theoretical.)
 
 ![](dag1.png)
 
-The value of a mediation analysis is being able to estimate _how much_ of an observed effect is going through a specific pathway. In this case, how much is less sleep mediating the effect of drinking on my hangover. If less sleep is the only reason drinking alcohol affects how I feel the next day, then we would expect all of the observed effect to travel through that causal chain. However, there are probably multiple reasons I have a hangover after drinking, such as dehydration, or the direct effect of consuming alcohol making me feel ill. The directed acyclic graph (DAG) for this question would look like this: 
+The value of a mediation analysis is being able to estimate _how much_ of an observed effect is going through a specific pathway. In this case, how much is less sleep mediating the effect of drinking beer on my hangover. If less sleep is the only reason drinking alcohol affects how I feel the next day, then we would expect all of the observed effect to travel through that causal chain. However, there are probably multiple reasons I have a hangover after drinking, such as dehydration, or the direct effect of consuming alcohol making me feel ill. The directed acyclic graph (DAG) for this question would look like this: 
 
 ![](featured.png)
 &nbsp;
@@ -34,23 +34,23 @@ The value of a mediation analysis is being able to estimate _how much_ of an obs
 
 Our research question is: *how much of my hangover is due to the fact that alcohol consumption disrupts my sleep?*
 
-In terms of the DAG - we're interested in disentangling pathway 'b' to 'c' from the 'total effect'. Pathway 'a' would be all the other causal mechanisms by which beer consumption can cause a hangover (again, like dehydration).
+In terms of the graph - we're interested in disentangling pathway 'a' to 'b' from the 'total effect'. Pathway 'c' would be all the other causal mechanisms by which beer consumption can cause a hangover (again, like dehydration, but this pathway is not mechanism specific).
 
 ## A detour through terminology 
 
 One of the challenging parts about learning mediation analysis is the jargon associated with all the ways to break down the 'total effect' into alternate pathways. What is the difference between the 'natural direct effect' and the 'controlled direct effect'? What about the 'average casual mediated effect'? It's the kind of thing that you think you understand right up until you have to say it in your own words. Which explains how I'm feeling about it right now...
 
-To start simply, the __direct effect__ is how much beer consumption is causing a hangover without going through an intermediary step.It's no secret that alcohol isn't good for you. According to the [Mayo Clinic website](https://www.mayoclinic.org/diseases-conditions/hangovers/symptoms-causes/syc-20373012#:~:text=Alcohol%20increases%20the%20production%20of,mood%20disturbances%20and%20even%20seizures.), alcohol irritates the lining of your stomach, which can cause pain, nausea, or vomiting. For the purposes of this example, we'll consider this a direct effect, or part of pathway 'a' in the DAG. 
+To start simply, the __direct effect__ is how much beer consumption is causing a hangover without going through an intermediary step.It's no secret that alcohol isn't good for you. According to the [Mayo Clinic website](https://www.mayoclinic.org/diseases-conditions/hangovers/symptoms-causes/syc-20373012#:~:text=Alcohol%20increases%20the%20production%20of,mood%20disturbances%20and%20even%20seizures.), alcohol irritates the lining of your stomach, which can cause pain, nausea, or vomiting. For the purposes of this example, we'll consider this a direct effect, or part of pathway 'c' in the DAG. 
 
 __Indirect effects__, in contrast, are effects that go through the mediator of interest. They are called 'indirect' because without a change in the mediator, you don't see a subsequent change in the outcome. Intuitively, you would expect a total effect to be able to be broken down into a set of indirect effects and a leftover direct effect, assuming your understanding of the causal structure is correct.
 
-This is where it starts to get complicated. The problem is that when you want to quantify the relationship between the exposure and outcome variables, it's _dependent on_ the distribution of the mediator variable. 
+This is where it starts to get complicated. The problem is that when you want to quantify the relationship between the exposure and outcome variables, it's _dependent on_ the value of the mediator variable. 
 
-So what should that be? Here are two common approaches: 
+So, what should the mediator value be? Here are two common approaches: 
 
 #### Controlled Effects 
 
-A "controlled (in)direct effect" is the effect the exposure has on the outcome when the mediator is held to a specific value. This may be most useful and intuitive when we are trying to quantify how well an intervention works to create a desired outcome. For me, I want to know if I sleep at least 9 hours, does it make my hangover decrease or go away? I might (in-advisably) test that by drinking different amounts of beer each night, but getting 9 hours of sleep every night. I have "controlled" my mediator, and am seeing how the exposure affects the outcome under those conditions. If my original hypothesis is correct, that lack of sleep is an important mediator in the causal system, then we should observe a significant decrease in my hangover symptoms from baseline. As a result, controlled (in)direct effects are often useful in designing interventions or making policy decisions. 
+A "controlled (in)direct effect" is the effect the exposure has on the outcome when the mediator is held to a specific value. This may be most useful and intuitive when thinking in terms of an experiment, or when we are trying to quantify how well an intervention works to create a desired outcome. For me, I want to know if I sleep at least 9 hours, does it make my hangover decrease or go away? I might (in-advisably) test that by drinking different amounts of beer each night, but getting 9 hours of sleep every night. I have "controlled" my mediator, and am seeing how the exposure affects the outcome under those conditions. If my original hypothesis is correct - that lack of sleep is an important mediator in the causal system - then we should observe a significant decrease in my hangover symptoms from baseline. As a result, controlled (in)direct effects are often useful in designing interventions or making policy decisions. 
 
 ![](dag2.png)
 
@@ -65,19 +65,62 @@ In the case of an experiment, there is the average value of the mediator observe
 * __Pure natural (in)direct effects__ are natural effects measured when the mediator is set to the average value of the control group.
 * __Total natural (in)direct effects__ are natural effects measured when the mediator is set to the average value in the intervention group. 
 
+(If if you're thinking "woah chica, that is one too many layers of terminology", [email me](../../contact) for invitation to the anti-jargon club.) 
+
 &nbsp;
 &nbsp;
+
+## Methods for simple mediation analysis 
+
+If you weren't too thrown by all the terminology, this might be about when you're wondering _how_ to conduct a mediation analysis. 
+
+One of the first methods was published in [this paper]() by Baron and Kenny in 1986. 
+
+For the mediation analyses I have conducted, I used the mediate() package in R. 
+
+In plain language, the steps are: 
+1. Regress the mediator on the exposure.
+
+```r
+model1 <- lm(mediator ~ exposure, data = dataframe1)
+```
+
+2. Regress the outcome on the mediator and exposure. 
+
+
+```r
+model2 <- lm(outcome ~ mediator + exposure, data = dataframe1)
+```
+
+3. Use model1 and model2 as inputs for the mediate() function. There are multiple options for how to calculate confidence intervals around your estimates. This example uses a bootstrapping method with 1000 simulations. 
+
+```r
+mediation1 <- mediate(model1, model2, treat = "exposure", mediator = "mediator", boot.ci.type="bca", sims = 1000)
+
+#output model summary
+summary(mediation1)
+```
+
+
+Anyone versed in epidemiological or social science modeling will know there's a huge, gigantic asterisk hovering over those lines of code, ready to pounce as soon as you think "is it really that easy?"
+
+Of course not. As a British statistician once said: 
+
+> All models are wrong but some are useful.
+>
+> — George Box
+
+And in this case, my friends, I'm sorry to report that I'm not sure these simple models are even useful, except to serve as a conceptual stepping stone from which other methods have been developed. And to exist in your fond memories of simpler times. Before the invention of Instagram and exposure-mediator interaction.
 
 # Coming soon: 
 
-## Method for simple mediation analysis 
 
-## Assumptions required to conduct a typical mediation analysis
+## Assumptions required to conduct a simple mediation analysis
 
 #### But what about when those assumptions do not hold? See [Part II](../2023-04-15-notes-on-mediation-analysis-part-ii/) in this series for more about the complexities of causal mediation analysis.
 
 
-#### References 
+## References 
 
 
 

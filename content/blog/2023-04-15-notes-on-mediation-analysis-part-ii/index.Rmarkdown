@@ -21,8 +21,19 @@ __Note: most of these notes are not specific to analysis in any language, but if
 
 __Note to self:__ This post would benefit from a Table of Contents
 
+Part I of this series covered the assumptions that are required to conduct a simple mediation analysis. Unfortunately, but predictably, those assumptions often don't hold, especially in the social and psychological sciences. These notes are on the different kinds of problems that may arise when you are conducting a mediation analysis.  
 
 ## Exposure-mediator interaction
+
+In a simple mediation analysis, we are assuming that at all levels of the mediator, the direct effect of the exposure on the outcome is the same. Bringing it back to the DAG in Part I, that would mean that no matter how many hours of sleep I get, the direct effect (pathway c) of drinking beer on my hangover is the same. 
+
+![](dag1.png)
+
+However, this isn't true when the exposure and mediator interact on the magnitude or direction of the direct effect. 
+
+I don't know about you, but I am not the type of person that handles sleep deprivation well (not even 5 years of an engineering degree could train me to forgo sleep). We could imagine that if the hours of sleep I got went too low, say less than 5, that my body would be in such distress it might process alcohol even less well than normal. In other words, the mediator value is impacting the direct effect of drinking beer on my hangover.
+
+On the flip side, maybe if I got an absurd amount of sleep (11 hours?), I would barely feel the effects of my previous night's poor choices. I had so long to rest that my body was able to process all the alcohol, heal my stomach linig, etc. before I was awake. 
 
 
 ## Confounding of the mediator-exposure pathway
@@ -30,18 +41,18 @@ __Note to self:__ This post would benefit from a Table of Contents
 
 ## Confounding by baseline mediator and baseline exposure values
 
-As someone who is sensitive to sleep habits, I know that I'm much more likely to get a good night's sleep when I've had many good night's sleep in a row. On the flip side, a poor night's sleep often leads to more bad sleep, because I've disrupted my circadian rhythm. When I have a disrupted circadian rhythm, I'm a lot more likely to stay up later and drink more, because I'm not getting the "bedtime" cues from my brain at a reasonable hour. Here is a DAG visualizing what I mean: 
+As someone who is sensitive to sleep habits, I know that I'm much more likely to get a good night's sleep when I've had many good night's sleep in a row. Conversely, a poor night's sleep often leads to more bad sleep, because I've disrupted my circadian rhythm. When I have a disrupted circadian rhythm, I'm a lot more likely to stay up later and drink more, because I'm not getting the "bedtime" cues from my brain at a reasonable hour. Here is a DAG visualizing what I mean: 
 
 ![](featured.png)
+
+## Time-varying confounding 
 
 
 ## Distinguishing moderation and mediation 
 
-This is a bit of a jump, but I read [this paper](https://www.sesp.org/files/The%20Moderator-Baron.pdf) and so it's on my mind. 
-
 Another way to conceptualize the role of sleep in this causal chain is as a *moderator*. (Note: add reference)
 
-Moderators are variables that change the strength or direction of the relationship between your exposure and outcome variables, but, importantly, they aren't on the causal pathway. In my example, if sleep quality were a moderartor, it would mean that the quality of my sleep after a night of drinking changes the relationship between drinking and my hangover, but it isn't a stepping stone between the cause and effect. 
+Moderators are variables that change the strength or direction of the relationship between your exposure and outcome variables, but, importantly, they aren't on the causal pathway. In my example, if sleep quality were a moderator, it would mean that the quality of my sleep after a night of drinking changes the relationship between drinking and my hangover, but it isn't a stepping stone between the cause and effect. 
 
 The resulting situation could be: 
 - If I drink and then get a good night's sleep, there is a diminished or no relationship between alcohol consumption and my hangover. 
@@ -68,23 +79,33 @@ However, it's also possible that the gene variant carries a higher risk of lung 
 
 ![](dag3.png)
 
-And, in fact, that is what the researcher's found. Using mediation analysis, they showed that the association between the gene variant and risk of lung cancer was operating primarily through pathways OTHER than smoking behavior. In terms of the DAG, pathway a is where most of the effect is traveling, not pathway b-c. 
+And, in fact, that is what the researcher's found. Using mediation analysis, they showed that the association between the gene variant and risk of lung cancer was operating primarily through pathways OTHER than smoking behavior. In terms of the DAG, pathway c is where most of the effect is traveling, not pathway a to b. 
 
 But wait, I thought we were talking about moderation? 
 
 Well here's the thing: of people who have the gene variant on 15q25.1, _only those who smoke are at increased risk for for lung cancer._
 
-In other words, if you have the gene variant, but don't smoke, you have no increased risk for lung cancer due to your genetics. But if you have the variant and DO smoke, you're at a higher risk for lung cancer. Smoking is moderating the effect of your genetics.
+In other words, if you have the gene variant, but don't smoke, you have no increased risk for lung cancer due to your genetics. But if you have the variant and DO smoke, you're at a higher risk for lung cancer. 
+
+__Your "smoking" level is moderating the effect of your genetics on your risk of lung cancer.__
+
+
+![](dag4.png)
+Note: For the purposes of the above graphs I binarized smoking into exposed (1, smoker) and unexposed (0, nonsmoker).
 
 
 
-#Adjusting for baseline measurements in mediation analysis
+# (Possibly, ambitiously) Coming Next:
+* What to do to in the presence of each of these biases 
 
-At this point I'm realizing this note would probably benefit from being broken up into a series. 
+### Random notes I needed 
 
 "Another assumption of any mediation analysis is no unmeasured confounding for each posited causal relation." (2023, Loh & Ren)
 
 "Systematic differences in the distribution of con- founders between different mediator levels can manifest as noncausal (i.e., “spurious”) empirical associations between the mediators, or between the mediator and outcome." (2023, Loh & Ren)
 
-# Coming Soon Topics
-* Time-varying confounding 
+#### If you read this and feel completely lost, see [Part I](../2023-03-27-notes-on-mediation-analsis-in-r/) in this series for an introduction to causal mediation analysis. Or jump ship and swim for safer waters. Both are equally valid reactions. 
+
+
+## References 
+
