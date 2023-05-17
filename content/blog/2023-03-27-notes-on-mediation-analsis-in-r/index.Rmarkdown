@@ -20,7 +20,7 @@ __Note: most of these notes are not specific to analysis in any language, but if
 
 Mediation analysis is often conducted to evaluate specific causal mechanisms after a general cause and effect relationship has been established by theory and experiments. 
 
-As a not-so-professional example, let's say I've noticed a causal relationship in my life between drinking beer and having a hangover the next day. I'm confident in the overall connection between these two variables (having tested it many times), but I can think of multiple _reasons_ that drinking beer might lead to a hangover. Below is one potential causal chain: 
+As a not-so-professional example, let's say I've noticed a causal relationship in my life between drinking beer and having a hangover the next day. I'm confident in the overall connection between these two variables, but I can think of multiple _reasons_ that drinking beer might lead to a hangover. Below is one potential causal chain: 
 
 (Amusingly, I've recently gone [sober-ish](../2023-04-04-sober-ish/), so this example has become more theory than experiment.)
 
@@ -65,20 +65,21 @@ In the case of an experiment, there is the average value of the mediator observe
 * __Pure natural (in)direct effects__ are natural effects measured when the mediator is set to the average value of the control group.
 * __Total natural (in)direct effects__ are natural effects measured when the mediator is set to the average value in the intervention group. 
 
-(If if you're thinking "woah chica, that is one too many layers of terminology", [email me](../../contact) for invitation to the anti-jargon club.) 
+(If if you're thinking "woah chica, that is one too many layers of terminology", [email me](../../contact) for an invitation to the anti-jargon club.) 
 
 &nbsp;
 &nbsp;
 
 ## Methods for simple mediation analysis 
 
-If you weren't too thrown by all the terminology, this might be about when you're wondering _how_ to conduct a mediation analysis. 
+If you weren't too thrown by all the terminology, this might be when you're wondering _how_ to conduct a mediation analysis. 
 
 One of the first methods was published in [this paper]() by Baron and Kenny in 1986. 
 
 For the mediation analyses I have conducted, I used the mediate() package in R. 
 
-In plain language, the steps are: 
+There are 3 steps:
+
 1. Regress the mediator on the exposure.
 ```{r eval=FALSE}
 model1 <- lm(mediator ~ exposure, data = dataframe1)
@@ -91,6 +92,7 @@ model2 <- lm(outcome ~ mediator + exposure, data = dataframe1)
 ```
 
 3. Use model1 and model2 as inputs for the mediate() function. There are multiple options for how to calculate confidence intervals around your estimates. This example uses a bootstrapping method with 1000 simulations. 
+
 ```{r eval=FALSE}
 mediation1 <- mediate(model1, model2, treat = "exposure", mediator = "mediator", boot.ci.type="bca", sims = 1000)
 
@@ -107,7 +109,7 @@ Of course not. As a British statistician once said:
 >
 > — George Box
 
-And in this case, my friends, I'm sorry to report that I'm not sure these simple models are even useful, except to serve as a conceptual stepping stone from which other methods have been developed. And to exist in your fond memories of simpler times. Before the invention of Instagram and exposure-mediator interaction.
+And in this case, I'm sorry to report that I'm not sure these simple models are even useful, except to serve as a conceptual stepping stone from which other methods have been developed. And to exist in your fond memories of simpler times. Before the invention of Instagram and exposure-mediator interaction.
 
 # Coming soon: 
 
