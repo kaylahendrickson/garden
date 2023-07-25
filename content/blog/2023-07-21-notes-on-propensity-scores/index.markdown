@@ -9,7 +9,13 @@ categories:
 tags: []
 ---
 
-These notes are for those non-stats folks (me) who would like an occasional refresher on the language and symbols of causal inference concepts and statistics. 
+Learning hard stuff is hard, and it continues to be hard long after you would like it to have become easier.
+
+It's that 'I know this but I also don't KNOW this" feeling. 
+
+This is where I'm at with causal inference. I have a handle on some of it, but every now and then I find myself in a forest of "the joint probability on theta given the marginal conditions of Y presupposes independence from A" trees and I need to come up for air, a cup of tea, and a refresher.  
+
+And maybe you do KNOW it, but it's still nice to have backup. 
 
 ## Language
 
@@ -44,8 +50,19 @@ Again, we intuitively understand that not everything that is associated in causa
 - You can then compute the causal effects within strata of the conditioning variable. 
   + If the causal effects across strata are the same, we have **treatment            effect homogeneity**. 
   + If the causal effects across the strata are different, we have                   **treatment effect heterogeneity**. This is also called **effect                 modification**. 
+
+
+### Observational Studies
+
+>"The best explanation of an association between treatment and outcome in an observatinal study is not necessarily a causal effect of the treatment on the outcome" -What If? by Miguel Hernan and James M. Robins 
+
+Analytically, we treat observational studies as conditionally randomized experiments, where we conditioned the treatment assignment on a set of covariates L. This works under the following assumptions:
+  1. The values of the treatment under comparison correspond to well-defined         interventions that correspond to versions of the treament in the data            (**consistency**)
+  2. The conditional probability of receiving every value of treatment depends     only on measured covariates L (**conditional exchangeability**)
+  3. The probability of receiving every value of treatment conditional on L is     greater than 0 (**positivity**)
   
-**Inverse probability weighting**
+Together, these three assumptions are termed the **identifiability conditions**. 
+
 
 ## Symbols
 
