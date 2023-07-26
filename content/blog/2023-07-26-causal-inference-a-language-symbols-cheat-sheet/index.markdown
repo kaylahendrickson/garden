@@ -2,12 +2,16 @@
 title: Causal Inference - a language & symbols cheat sheet
 author: krhendrickson
 date: '2023-07-21'
-slug: []
+slug: ["causal-inference-cheat-sheet"]
 categories:
   - epidemiology
   - causal inference
-tags: []
+  - notes
+tags: ["causal inference"]
+series: ["causal inference"]
 ---
+
+>**The "notes" category indicates that much of this post is my summary and interpretation from sources I'm using to learn about a topic of interest. As such, most of the following are not my original thoughts.**
 
 Learning hard stuff is hard, and it continues to be hard long after you would like it to have become easier.
 
@@ -63,13 +67,16 @@ Analytically, we treat observational studies as conditionally randomized experim
   
 Together, these three assumptions are termed the **identifiability conditions**. 
 
+In experimental studies, exchangeability and positivity are built into the design. Observational studies, in contrast, do not guarantee either. Selection biases can create conditions in which only one type of person is experiencing a given treatment level. 
+
+Back to the stomach ache example: when you go to the gas station you always eat a pack of sour straws and chug a Mountain Dew. You then get a stomach ache. You have no way of knowing whether the sour straws or Mountain Dew is responsible for this because you *always* consume them together. You have no data on what happens if you only drink a Mountain Dew, and therefore have no comparison to make. 
+
 
 ## Symbols
 
-**Pr[Y]** - The probability of event Y. 
+- **Pr[Y]** - The marginal probability of event Y. 
+- **Pr[Y|A]** - The conditional probability of event Y given A. 
 
 ## References 
 
-
-
-
+1. [Hernán MA, Robins JM (2020). Causal Inference: What If. Boca Raton: Chapman & Hall/CRC.](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)

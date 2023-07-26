@@ -6,9 +6,12 @@ slug: ["causal-inference-cheat-sheet"]
 categories:
   - epidemiology
   - causal inference
+  - notes
 tags: ["causal inference"]
 series: ["causal inference"]
 ---
+
+>**The "notes" category indicates that much of this post is my summary and interpretation from sources I'm using to learn about a topic of interest. As such, most of the following are not my original thoughts.**
 
 Learning hard stuff is hard, and it continues to be hard long after you would like it to have become easier.
 
@@ -71,12 +74,9 @@ Back to the stomach ache example: when you go to the gas station you always eat 
 
 ## Symbols
 
-**Pr[Y]** - The marginal probability of event Y. 
-**Pr[Y|A]** - The conditional probability of event Y given A. 
+- **Pr[Y]** - The marginal probability of event Y. 
+- **Pr[Y|A]** - The conditional probability of event Y given A. 
 
 ## References 
 
-1. What If? by Miguel Hernan and James M. Robins. 
-
-
-
+1. [Hernán MA, Robins JM (2020). Causal Inference: What If. Boca Raton: Chapman & Hall/CRC.](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
