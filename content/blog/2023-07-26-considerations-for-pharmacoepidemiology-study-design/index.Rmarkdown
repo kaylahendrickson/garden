@@ -1,0 +1,23 @@
+---
+title: Considerations for pharmacoepidemiology study design
+author: krhendrickson
+date: '2023-07-26'
+slug: ["considerations-pharmacoepi-study-design"]
+categories:
+  - epidemiology
+  - biostatistics
+tags: []
+series: ["causal inference"]
+---
+
+
+#### Right now, an unorganized list of concepts I don't want to forget about. 
+
+- Rapid changes in the natural history of a disease or changes in treatment decisions will mean strong effects in relation to calendar time. 
+  + Example: The management of COVID-19 improved throughout the pandemic independent of medication use. If you wanted to assess the     comparative effectiveness of a drug, you would need to control for calendar time. 
+
+
+### Using Claims Data 
+- Including open claims presents a challenge of defining a relevant denominator. Main concern is the under-inclusion of healthy individuals who are not"active" in the healthcare system. 
+
+

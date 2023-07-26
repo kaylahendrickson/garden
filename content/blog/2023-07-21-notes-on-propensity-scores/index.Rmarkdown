@@ -2,11 +2,12 @@
 title: Causal Inference - a language & symbols cheat sheet
 author: krhendrickson
 date: '2023-07-21'
-slug: []
+slug: ["causal-inference-cheat-sheet"]
 categories:
   - epidemiology
   - causal inference
-tags: []
+tags: ["causal inference"]
+series: ["causal inference"]
 ---
 
 Learning hard stuff is hard, and it continues to be hard long after you would like it to have become easier.
@@ -65,7 +66,7 @@ Together, these three assumptions are termed the **identifiability conditions**.
 
 In experimental studies, exchangeability and positivity are built into the design. Observational studies, in contrast, do not guarantee either. Selection biases can create conditions in which only one type of person is experiencing a given treatment level. 
 
-Back to the stomach ache example: when you go to the gas station you always eat a pack of sour straws and chug a Mountain Dew. You then get a stomach ache. You have no way of knowing whether the sour straws or Mountain Dew is responsible for this because you *always* consume them together. You have no data on what happens if you only drink a Mountain Dew. 
+Back to the stomach ache example: when you go to the gas station you always eat a pack of sour straws and chug a Mountain Dew. You then get a stomach ache. You have no way of knowing whether the sour straws or Mountain Dew is responsible for this because you *always* consume them together. You have no data on what happens if you only drink a Mountain Dew, and therefore have no comparison to make. 
 
 
 ## Symbols

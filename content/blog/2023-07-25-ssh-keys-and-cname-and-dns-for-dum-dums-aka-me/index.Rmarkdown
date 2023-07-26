@@ -2,11 +2,11 @@
 title: SSH keys and CNAME and DNS for Dum Dums (aka ME)
 author: krhendrickson
 date: '2023-07-25'
-slug: []
+slug: ["ssh-keys-for-dum-dums"]
 categories:
-  - tech
-  - help me
-tags: []
+  - coding
+tags: ["help me"]
+series: ["debugging"]
 ---
 
 Because this stuff confused the ever-loving heck outta me. 
