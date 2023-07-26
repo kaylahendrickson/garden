@@ -61,15 +61,19 @@ Again, we intuitively understand that not everything that is associated in causa
 >"The best explanation of an association between treatment and outcome in an observatinal study is not necessarily a causal effect of the treatment on the outcome" -What If? by Miguel Hernan and James M. Robins 
 
 Analytically, we treat observational studies as conditionally randomized experiments, where we conditioned the treatment assignment on a set of covariates L. This works under the following assumptions:
-  1. The values of the treatment under comparison correspond to well-defined         interventions that correspond to versions of the treament in the data            (**consistency**)
-  2. The conditional probability of receiving every value of treatment depends     only on measured covariates L (**conditional exchangeability**)
-  3. The probability of receiving every value of treatment conditional on L is     greater than 0 (**positivity**)
+  1. The values of the treatment under comparison correspond to well-defined interventions that correspond to versions of the treament in the data (**consistency**)
+  2. The conditional probability of receiving every value of treatment depends only on measured covariates L (**conditional exchangeability**)
+  3. The probability of receiving every value of treatment conditional on L is greater than 0 (**positivity**)
   
 Together, these three assumptions are termed the **identifiability conditions**. 
 
 In experimental studies, exchangeability and positivity are built into the design. Observational studies, in contrast, do not guarantee either. Selection biases can create conditions in which only one type of person is experiencing a given treatment level. 
 
 Back to the stomach ache example: when you go to the gas station you always eat a pack of sour straws and chug a Mountain Dew. You then get a stomach ache. You have no way of knowing whether the sour straws or Mountain Dew is responsible for this because you *always* consume them together. You have no data on what happens if you only drink a Mountain Dew, and therefore have no comparison to make. 
+
+As for consisitency, it's critical that the treatment and outcome are well-defined within a study. This is how we can ensure that the outcome under a treatment level is consistent. If the treatment is poorly defined, then variations on the treatment may lead to different causal outcomes, and this assumption has been violated.
+
+In some cases, *treatment-variation irrelevance* is assumed, meaning all versions of the treatment have the same effect. An example given in What If? is different blood pressure medications all resulting in "treated" high blood pressure. 
 
 
 ## Symbols

@@ -23,6 +23,9 @@ series: ["causal inference"]
 - Immortal time bias - this bias results when there is a period of follow-up time when it is impossible for the outcome to occur in the exposed individual.
   + The classic example is when person-time before an exposure is classified as "exposed". **By design** that person had to have survived up to the exposure point, so this is not a real comparator to the unexposed person. This time should be categorized as "unexposed". 
   + Using a risk-set sampling design, where all people are eligible to be "nonusers" regardless of whether they later become "users", avoids this bias.
+  
+- New user study design 
+  + For drugs with intermittent use, lookback period will have a strong impact on classification. 
 
 ### Using Claims Data 
 
