@@ -2,7 +2,9 @@
 action_label: Read More &rarr;
 action_link: /about
 action_type: text
-description: I'm a Global Public Health Data Scientist that likes to work on complex problems in healthcare access and health equity. This website is currently serving as an extended resume and an experiment in digital gardening. Everything here is a work in progress, including the author.
+description: Titles are hard: I'm a writer, a data scientist, a designer, maybe forever an engineer (you can't the attitude). I currently work in pharmacoepidemiology using casual inference methods. I love what I do, so 'statistician' may be in my future too. Oh my. 
+
+This website is currently serving as an extended resume and an experiment in digital gardening. Everything here is a work in progress, including the author.
 image_left: false
 images:
 - img/avatar.jpeg
